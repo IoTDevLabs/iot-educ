@@ -1,4 +1,4 @@
-gctc-iot-educ
+IoT & Education:  A Global City Teams Challenge Project
 =============
 
-IoT &amp; Education - Global City Teams Challenge
+Click here to view as web site
