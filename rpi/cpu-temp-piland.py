@@ -32,7 +32,8 @@ while True:
   
   # Read the temperature value
 
-  rawtemp = open("/sys/class/thermal/thermal_zone0/temp").read()
+  devicepath.seek(0,0);
+  rawtemp = devicepath.read().rstrip()
 
   # Convert to the units we want
 
