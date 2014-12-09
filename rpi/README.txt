@@ -1,4 +1,4 @@
-Programs and scripts for Raspberry Pi.
+Programs and scripts for Raspberry Pi running Raspbian operating system.
 
 README.txt - the file you're reading now.
 
