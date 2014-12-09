@@ -2,10 +2,7 @@
 
 This is where we store source code and documents that project participants can use.
 
-Documentation Pages
-* [Project Wiki on GitHub](https://github.com/IoTDevLabs/iot-educ/wiki)
+The GitHub site is broken down into two components:
 
-Source Code
-
-
-
+* [Code repository](https://github.com/IoTDevLabs/iot-educ) - where source code is kept, such as Python programs and bash scripts
+* [Wiki pages](https://github.com/IoTDevLabs/iot-educ/wiki) - where descriptive information is kept, such as a list of reference books
