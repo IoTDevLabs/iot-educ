@@ -13,7 +13,7 @@ The GitHub site is broken down into two components:
 
 The code repository is organized as a set of folders:
 
-* **rpi** - contains programs and scripts for Raspberry Pi devices
+* **[rpi](https://github.com/IoTDevLabs/iot-educ/tree/master/rpi)** - contains programs and scripts for Raspberry Pi devices
 
 ### Downloading a copy of the Code Repository
 
