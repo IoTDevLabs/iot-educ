@@ -25,3 +25,7 @@ The entire code repository can be downloaded by clicking on this link:
 If you are logged onto a device running Linux, such as a Raspberry Pi or BeagleBone Black, you can use the following command line program to download the respository to your device:
 
 `wget https://github.com/IoTDevLabs/iot-educ/archive/master.zip`
+
+If you're using Git on the Pi or on your laptop, you can clone this repository using this command:
+
+`git clone https://github.com/IoTDevLabs/iot-educ.git`
