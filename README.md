@@ -13,7 +13,8 @@ The GitHub site is broken down into two components:
 
 The code repository is organized as a set of folders:
 
-* **[rpi](https://github.com/IoTDevLabs/iot-educ/tree/master/rpi)** - contains programs and scripts for Raspberry Pi devices
+* **[rpi](https://github.com/IoTDevLabs/iot-educ/tree/master/rpi)** - contains programs and scripts for Raspberry Pi
+* **[bbb](https://github.com/IoTDevLabs/iot-educ/tree/master/bbb)** - contains programs and scripts for BeagleBone Black 
 * _folders for other devices and IoT Dev Kits will be added here_
 
 ### Downloading a copy of the Code Repository
