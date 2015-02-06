@@ -1,4 +1,6 @@
+-----------------------------------------------------------------------------------
 Programs and scripts for Raspberry Pi running Raspbian operating system.
+-----------------------------------------------------------------------------------
 
 README.txt - the file you're reading now.
 
@@ -18,7 +20,7 @@ grove-buzzer.py - beep a Grove Buzzer connected to port D2
    To run, type in:  python grove_buzzer.py
 
 grove-ultrasonic-piland.py - continuously read Ultrasonic Ranger and write to Pi Land
-   to run, type in:  python grove-ultrasonic-piland.py
+   To run, type in:  python grove-ultrasonic-piland.py
 
 
 -----------------------------------------------------------------------------------
