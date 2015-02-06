@@ -22,6 +22,9 @@ grove-buzzer.py - beep a Grove Buzzer connected to port D2
 grove-ultrasonic-piland.py - continuously read Ultrasonic Ranger and write to Pi Land
    To run, type in:  python grove-ultrasonic-piland.py
 
+grove-dht22-piland.py - continuously read DHT22 Temp & Humidity and write to Pi Land
+   To run, type in:  python grove-dht22-piland.py
+
 
 -----------------------------------------------------------------------------------
 Setting up your Raspberry Pi for use with the GrovePi and GrovePi+
