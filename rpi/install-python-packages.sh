@@ -12,3 +12,7 @@ sudo pip install RPi.GPIO
 echo "Installing 'requests'"
 sudo pip install requests
 
+echo ""
+echo "Note:  GrovePi package needs to be installed separately,"
+echo "       including setting up I2C interface."
+
