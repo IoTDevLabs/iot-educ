@@ -55,5 +55,7 @@ while True:
     print "Terminating"
     break
   except IOError:
-    print "IOError"
+    print "IOError, continuing"
+  except:
+    print "Unexpected error, continuing"
 
