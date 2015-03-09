@@ -99,7 +99,7 @@ Type in these commands in a bash shell:
 
 If everything is working, the LED should start blinking.
 
-Now install the grovepi Python package so you can use it from
+Now install the GrovePi Python package so you can use it from
 anywhere on your Raspberry Pi:
 
    cd ~
