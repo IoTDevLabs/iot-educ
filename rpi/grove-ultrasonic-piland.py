@@ -20,14 +20,17 @@ import grovepi
 #        different for your own use so that everyone isn't using
 #        the same data slot and overwriting each other's data.
 
+# Pi Land settings
 room = 404                             # Room number to use (1 through 999)
-dataslot = 21                          # Data slot number to use (1 through 30)
-devicename = "Distance"                # Descriptive name for your device, put '+' for space char
+slot = 21                              # Data slot number to use (1 through 30)
+name = "Distance"                      # Descriptive name for your device, put '+' for space char
 
+# Sensor settings
+ranger = 4                             # Ultrasonic Ranger is connected to port D4
+
+# Other global variables
 baseurl = "http://piland.socialdevices.io"
-baseurl = baseurl + "/" + str(room) + "/write/" + str(dataslot) + "?name=" + devicename + "&value="
-
-ranger=4                               # Ultrasonic Ranger is connected to port D4
+baseurl = baseurl + "/" + str(room) + "/write/" + str(slot) + "?name=" + name + "&value="
 
 while True:
   

@@ -12,7 +12,8 @@
 import time
 import grovepi
 
-buzzer=2                               # Buzzer connected to D2 port
+# Actuator settings
+buzzer = 2                             # Buzzer connected to D2 port
 
 while True:
   

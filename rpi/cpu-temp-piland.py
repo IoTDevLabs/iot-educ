@@ -19,14 +19,17 @@ import requests
 #        different for your own use so that everyone isn't using
 #        the same data slot and overwriting each other's data.
 
+# Pi Land settings
 room = 404                             # Room number to use (1 through 999)
-dataslot = 1                           # Data slot number to use (1 through 30)
-devicename = "Pi+CPU+Temp"             # Descriptive name for your device, put '+' for space char
+slot = 1                               # Data slot number to use (1 through 30)
+name = "Pi+CPU+Temp"                   # Descriptive name for your device, put '+' for space char
 
-baseurl = "http://piland.socialdevices.io"
-baseurl = baseurl + "/" + str(room) + "/write/" + str(dataslot) + "?name=" + devicename + "&value="
-
+# Sensor settings
 devicepath = open("/sys/class/thermal/thermal_zone0/temp")
+
+# Other global variables
+baseurl = "http://piland.socialdevices.io"
+baseurl = baseurl + "/" + str(room) + "/write/" + str(slot) + "?name=" + name + "&value="
 
 while True:
   

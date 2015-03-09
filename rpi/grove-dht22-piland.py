@@ -20,17 +20,20 @@ import grovepi
 #        different for your own use so that everyone isn't using
 #        the same data slot and overwriting each other's data.
 
-room = 404                                  # Room number to use (1 through 999)
-temp_dataslot   = 22                        # Data slot number to use (1 through 30)
-temp_devicename = "Inside Temp DHT22"       # Descriptive name for your device, put '+' for space char
-humi_dataslot    = 23                       # Data slot number to use (1 through 30)
-humi_devicename  = "Inside Humidity DHT22"  # Descriptive name for your device, put '+' for space char
+# Pi Land settings
+room      = 404                          # Room number to use (1 through 999)
+slot_temp = 22                           # Data slot number to use (1 through 30)
+name_temp = "Inside Temp DHT22"          # Descriptive name for your device, put '+' for space char
+slot_humi = 23                           # Data slot number to use (1 through 30)
+name_humi = "Inside Humidity DHT22"      # Descriptive name for your device, put '+' for space char
 
+# Sensor settings
+dht22_port = 7                           # DHT22 temp & humidity sensor is connected to port D7
+
+# Other global variables
 baseurl = "http://piland.socialdevices.io"
-temp_baseurl = baseurl + "/" + str(room) + "/write/" + str(temp_dataslot) + "?name=" + temp_devicename + "&value="
-humi_baseurl = baseurl + "/" + str(room) + "/write/" + str(humi_dataslot) + "?name=" + humi_devicename + "&value="
-
-dht22_port=7                                # DHT22 temp & humidity sensor is connected to port D7
+temp_baseurl = baseurl + "/" + str(room) + "/write/" + str(slot_temp) + "?name=" + name_temp + "&value="
+humi_baseurl = baseurl + "/" + str(room) + "/write/" + str(slot_humi) + "?name=" + name_humi + "&value="
 
 while True:
   
