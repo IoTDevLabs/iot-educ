@@ -5,7 +5,7 @@
 # To run this program from the bash command prompt,
 # type this and hit Enter:
 #
-#    sudo python grove_buzzer.py
+#    sudo python grove-buzzer.py
 #
 ############################################################
 
