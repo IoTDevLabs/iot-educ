@@ -6,7 +6,7 @@
 # To run this program from the bash command prompt,
 # type this and hit Enter:
 #
-#    python grove-ultrasonic-piland.py
+#    sudo python grove-ultrasonic-piland.py
 #
 ############################################################
 

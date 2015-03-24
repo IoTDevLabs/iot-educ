@@ -8,7 +8,7 @@
 # To run this program from the bash command prompt,
 # type this and hit Enter:
 #
-#    python grove-dht11-dht22-piland.py
+#    sudo python grove-dht11-dht22-piland.py
 #
 ############################################################
 
