@@ -41,7 +41,7 @@ while True:
 
     # Read the temperature and humidity
 
-    [temp, humi] = grovepi.dht(dht22_port, 1)
+    [temp, humi] = grovepi.dht(dht22_port, 1)               # second parameter:  1 = DHT22 sensor
 
     temp_url = temp_baseurl + "%0.1f" % temp + "+C"
     humi_url = humi_baseurl + "%0.1f" % humi  + "+%25"      #  %25 will display as % sign
