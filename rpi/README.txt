@@ -19,7 +19,18 @@ cpu-temp-piland.py - continuously read Pi's internal CPU temperature and write t
    To run, type in:  python cpu-temp-piland.py
 
 grove-buzzer.py - beep a Grove Buzzer connected to port D2
-   To run, type in:  python grove_buzzer.py
+   To run, type in:  python grove-buzzer.py
+
+grove-buzzer-piland.py - continously read Pi Land and turn buzzer on or off
+based on the data value that's read
+   to run, type in:  python grove-buzzer-piland.py
+
+grove-led.py - flash a LED connected to port D6
+   to run, type in:  python grove-led.py
+
+grove-led-piland.py - continously read Pi Land and turn LED on or off
+based on the data value that's read
+   to run, type in:  python grove-led-piland.py
 
 grove-ultrasonic-piland.py - continuously read Ultrasonic Ranger and write to Pi Land
    To run, type in:  python grove-ultrasonic-piland.py
@@ -160,5 +171,7 @@ Type in these commands in a bash shell:
 
 At this point you should have a functioning GrovePi environment
 and you can start running the IoT & Education template programs
-found at:  https://github.com/IoTDevLabs/iot-educ
+for Raspberry Pi found at:  https://github.com/IoTDevLabs/iot-educ
+
+They are under the 'rpi' folder.
 
