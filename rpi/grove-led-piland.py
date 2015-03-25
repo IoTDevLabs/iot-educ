@@ -25,6 +25,8 @@ slot = 3                               # slot number to monitor
 baseurl = "http://piland.socialdevices.io"
 baseurl = baseurl + "/" + str(room) + "/read/" + str(slot)
 
+grovepi.pinMode(led, "OUTPUT")
+
 while True:
   
   try:

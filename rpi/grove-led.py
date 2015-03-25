@@ -15,6 +15,8 @@ import grovepi
 # Actuator settings
 led = 6                                # LED connected to D6 port
 
+grovepi.pinMode(led, "OUTPUT")
+
 while True:
   
   try:

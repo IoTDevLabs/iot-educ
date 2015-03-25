@@ -15,6 +15,8 @@ import grovepi
 # Actuator settings
 buzzer = 2                             # Buzzer connected to D2 port
 
+grovepi.pinMode(buzzer, "OUTPUT")
+
 while True:
   
   try:
