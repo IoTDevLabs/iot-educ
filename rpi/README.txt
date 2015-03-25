@@ -45,6 +45,17 @@ grove-dht11-dht22-piland.py - continuously read DHT11 and DHT22 Temp & Humidity 
 and write to Pi Land
    To run, type in:  python grove-dht11-dht22-piland.py
 
+grove-lcd.py - print example messages on a Grove LCD display
+   To run, type in:  python grove-lcd.py
+ 
+grove-lcd-piland.py - continuously read a Pi Land data slot and print on LCD display
+   To run, type in:  python grove-lcd-piland.py
+
+grove_rgb_lcd.py - Grove LCD display driver routine (from GrovePi library); this file
+   is part of the GrovePi software located under GrovePi/Software/Python/grove_rgb_lcd;
+   this file needs to be in your same program directory in order to run programs that
+   write to the Grove LCD display
+
 NOTE: To run the files that begin with "grove-" you have to first set up your
       GrovePi or GrovePi+ environment as described below.
 
