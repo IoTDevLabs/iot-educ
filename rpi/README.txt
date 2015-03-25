@@ -23,14 +23,14 @@ grove-buzzer.py - beep a Grove Buzzer connected to port D2
 
 grove-buzzer-piland.py - continously read Pi Land and turn buzzer on or off
 based on the data value that's read
-   to run, type in:  python grove-buzzer-piland.py
+   To run, type in:  python grove-buzzer-piland.py
 
 grove-led.py - flash a LED connected to port D6
-   to run, type in:  python grove-led.py
+   To run, type in:  python grove-led.py
 
 grove-led-piland.py - continously read Pi Land and turn LED on or off
 based on the data value that's read
-   to run, type in:  python grove-led-piland.py
+   To run, type in:  python grove-led-piland.py
 
 grove-ultrasonic-piland.py - continuously read Ultrasonic Ranger and write to Pi Land
    To run, type in:  python grove-ultrasonic-piland.py
@@ -55,6 +55,10 @@ grove_rgb_lcd.py - Grove LCD display driver routine (from GrovePi library); this
    is part of the GrovePi software located under GrovePi/Software/Python/grove_rgb_lcd;
    this file needs to be in your same program directory in order to run programs that
    write to the Grove LCD display
+
+grove-relay-piland.py - continously read Pi Land and turn relay on or off
+based on the data value that's read
+   To run, type in:  python grove-relay-piland.py
 
 NOTE: To run the files that begin with "grove-" you have to first set up your
       GrovePi or GrovePi+ environment as described below.
