@@ -50,7 +50,7 @@ while True:
     time.sleep(1)
 
   except KeyboardInterrupt:
-    print "Control-C, turning buzzer off"
+    print "Control-C, turning LED off"
     grovepi.digitalWrite(led, 0)         # led off when Control-C terminate
     break
   except IOError:
