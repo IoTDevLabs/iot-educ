@@ -15,7 +15,7 @@ The code repository is organized as a set of folders:
 
 * **[rpi](https://github.com/IoTDevLabs/iot-educ/tree/master/rpi)** - contains programs and scripts for Raspberry Pi
 * **[bbb](https://github.com/IoTDevLabs/iot-educ/tree/master/bbb)** - contains programs and scripts for BeagleBone Black 
-* _folders for other devices and IoT Dev Kits will be added here_
+* **[gal](https://github.com/IoTDevLabs/iot-educ/tree/master/gal)** - contains programs and scripts for Galileo 
 
 ### Downloading a copy of the Code Repository
 
