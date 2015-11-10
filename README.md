@@ -7,7 +7,7 @@ Materials are organized into two areas:
 * [Code Repository](https://github.com/IoTDevLabs/iot-educ) - where source code is kept, such as Python programs, Node.js programs, and bash scripts
 * [Wiki Pages](https://github.com/IoTDevLabs/iot-educ/wiki) - where descriptive information is kept, such as a list of components and reference books
 
-There's a [Frequently Asked Questions (FAQ)](https://github.com/IoTDevLabs/iot-educ/wiki/Frequently-Asked-Questions-(FAQ)) page with common questions and a [What's New](https://github.com/IoTDevLabs/iot-educ/wiki/What's-New) page to monitor what's new.
+There's also a [Frequently Asked Questions (FAQ)](https://github.com/IoTDevLabs/iot-educ/wiki/Frequently-Asked-Questions-(FAQ)) page with common questions and a [What's New](https://github.com/IoTDevLabs/iot-educ/wiki/What's-New) page to monitor what's new.
 
 ---
 
