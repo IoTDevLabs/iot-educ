@@ -37,6 +37,8 @@ If you're using Git on the Raspberry Pi or on your laptop, you can clone this re
 
 *These instructions assume you're running the latest version of the Raspbian operating system on your Raspberry Pi and that you have your Pi connected to the Internet.*
 
+*For a more detailed getting started guide, see the [Step by Step: Raspberry Pi](https://github.com/IoTDevLabs/iot-educ/wiki/Step-by-Step:--Raspberry-Pi) page.*
+
 1. Log into the Pi.
 1. Verify you have Internet connectivity:
   1. ping www.google.com
