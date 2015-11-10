@@ -11,6 +11,7 @@
 
 import time
 import grovepi
+import sys
 
 # Sensor settings
 button = 3                             # button connected to D3 port
@@ -50,4 +51,7 @@ while True:
     break
   except IOError:
     print "IOError, continuing"
+  except:
+    print "Unexpected error, continuing"
+    print "sys.exc_info()[0]: ", sys.exc_info()[0]
 

@@ -13,6 +13,7 @@
 import time
 import requests
 import grovepi
+import sys
 
 # Write the value to a specific data slot in a Pi Land room
 
@@ -61,4 +62,5 @@ while True:
     print "IOError, continuing"
   except:
     print "Unexpected error, continuing"
+    print "sys.exc_info()[0]: ", sys.exc_info()[0]
 

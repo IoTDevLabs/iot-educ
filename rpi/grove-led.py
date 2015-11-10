@@ -11,6 +11,7 @@
 
 import time
 import grovepi
+import sys
 
 # Actuator settings
 led = 6                                # LED connected to D6 port
@@ -33,4 +34,7 @@ while True:
     break
   except IOError:
     print "IOError"
+  except:
+    print "Unexpected error, continuing"
+    print "sys.exc_info()[0]: ", sys.exc_info()[0]
 
