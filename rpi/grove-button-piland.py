@@ -1,7 +1,8 @@
 ############################################################
 # Simple Python program that repeatedly reads a
 # Grove Button attached to port D3 and writes the
-# on/off state to Pi Land.
+# on/off state to Pi Land. Also increments a counter
+# of how many times the button was pressed.
 #
 # To run this program from the bash command prompt,
 # type this and hit Enter:
@@ -27,12 +28,25 @@ state = -1                             # stable state
 # Pi Land settings
 room = 404                             # Room number to use (1 through 999)
 slot = 11                              # Data slot number to use (1 through 30)
-name = "Button"                        # Descriptive name for your device, put '+' for space char
+name = "Button+Status"                 # Descriptive name for your device, put '+' for space char
+slot_incr = 12                         # Data slot for incrementing counter
+name_incr = "Button+Counter"           # Descriptive name for incrementing counter
 
 baseurl = "http://piland.socialdevices.io"
-baseurl = baseurl + "/" + str(room) + "/write/" + str(slot) + "?name=" + name + "&value="
+baseurl_write = baseurl + "/" + str(room) + "/write/" + str(slot) + "?name=" + name + "&value="
+baseurl_incr = baseurl + "/" + str(room) + "/incr/" + str(slot_incr) + "?name=" + name_incr
+baseurl_incr_init = baseurl + "/" + str(room) + "/write/" + str(slot_incr) + "?name=" + name_incr + "&value=0"
 
 grovepi.pinMode(button, "INPUT")
+
+# Initialize the incrementing counter to 0
+
+print baseurl_incr_init
+requests.get(baseurl_incr_init)
+
+# Endless loop reading button and updating Pi Land data
+
+do_incr = False
 
 while True:
   
@@ -54,18 +68,23 @@ while True:
         debounce = debounce_max + 1 
         if state == 0:
           # switch is off
-          sendurl = baseurl + "off"
+          sendurl = baseurl_write + "off"
         else:
           # switch is on
-          sendurl = baseurl + "on"
+          sendurl = baseurl_write + "on"
+          do_incr = True
 
         print sendurl
 
         requests.get(sendurl)
 
+        if do_incr == True:
+          do_incr = False
+          requests.get(baseurl_incr)
+
     last = reading
 
-    time.sleep(0.1)
+    time.sleep(0.05)
 
   except KeyboardInterrupt:
     print "Terminating"
