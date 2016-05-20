@@ -11,9 +11,9 @@
 # to GPIO 17 (pin 11) and the other side connected to
 # GND (pin 6 or pin 9, either pin is GND). A 10K pull-up
 # resistor (brown-black-orange color bands) also needs to be
-# connected between pin 11 (GPIO 17) and pin 6 or pin 9
-# (GND) otherwise the switch will generate spurious
-# open/closed readings when it isn't being pressed.
+# connected between pin 11 (GPIO 17) and pin 1 (3.3V)
+# otherwise the switch will generate spurious open/closed
+# readings when it isn't being pressed.
 #
 # To run this program from the bash command prompt,
 # type this and hit Enter:
@@ -82,7 +82,7 @@ class Button:
         print self.name + " = " + str(self.stable_state)
         self.debounce_counter = self.debounce_max + 1   # Set to max+1 so won't trigger again
         # Set button on/off state in Pi Land slot
-        if self.stable_state == 0:  # Button is ON (0 = on)
+        if self.stable_state == 0:       # Button is ON (0 = on)
           # Increment button counter in Pi Land slot
           sendurl = baseurl_incr % (self.room, self.counter_slot, self.counter_label)
           print sendurl                  # Print the API call URL
