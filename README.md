@@ -1,4 +1,6 @@
-# IoT & Education: A Global City Teams Challenge Project
+# IoT Education & Workforce Development
+
+### A Global City Teams Challenge Project
 
 This is where we store source code and documents that project participants can use.
 
