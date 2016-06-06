@@ -11,8 +11,6 @@ Materials are organized into two areas:
 
 There's also a [Frequently Asked Questions (FAQ)](https://github.com/IoTDevLabs/iot-educ/wiki/Frequently-Asked-Questions-(FAQ)) page with common questions and a [What's New](https://github.com/IoTDevLabs/iot-educ/wiki/What's-New) page to monitor what's new.
 
----
-
 ## Code Repository
 
 The code repository is organized in three folders:
