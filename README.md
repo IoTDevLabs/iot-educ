@@ -1,37 +1,41 @@
 # IoT Education & Workforce Development
 
-### A Global City Teams Challenge Project
+### A Global City Teams Challenge Initiative
 
-This is where we store source code and documents that project participants can use.
+Software and guides for learning about and building sensors for smart city / smart community applications.
 
 Materials are organized into two areas:
 
-* [Code Repository](https://github.com/IoTDevLabs/iot-educ) - where source code is kept, such as Python programs, Node.js programs, and bash scripts
-* [Wiki Pages](https://github.com/IoTDevLabs/iot-educ/wiki) - where descriptive information is kept, such as a list of components and reference books
+* [Software Programs](https://github.com/IoTDevLabs/iot-educ) - source code for runnable programs written in Python, Node.js and bash scripts
+* [Wiki](https://github.com/IoTDevLabs/iot-educ/wiki) - FAQ, getting started guides, component lists, reference books
 
-There's also a [Frequently Asked Questions (FAQ)](https://github.com/IoTDevLabs/iot-educ/wiki/Frequently-Asked-Questions-(FAQ)) page with common questions and a [What's New](https://github.com/IoTDevLabs/iot-educ/wiki/What's-New) page to monitor what's new.
+See the [Frequently Asked Questions (FAQ)](https://github.com/IoTDevLabs/iot-educ/wiki/Frequently-Asked-Questions-(FAQ)) for answers to common questions and [What's New](https://github.com/IoTDevLabs/iot-educ/wiki/What's-New) to see what's new.
 
-## Code Repository
+## Software Programs
 
-The code repository is organized in three folders:
+Source code is organized in three folders:
 
 * **[rpi](https://github.com/IoTDevLabs/iot-educ/tree/master/rpi)** - contains programs and scripts for Raspberry Pi
 * **[bbb](https://github.com/IoTDevLabs/iot-educ/tree/master/bbb)** - contains programs and scripts for BeagleBone Black 
 * **[gal](https://github.com/IoTDevLabs/iot-educ/tree/master/gal)** - contains programs and scripts for Galileo 
 
-### Downloading a copy of the Code Repository
+### Downloading a copy of the source code
 
 The entire code repository can be downloaded by clicking on this link:
 
 * https://github.com/IoTDevLabs/iot-educ/archive/master.zip
 
-If you're logged onto a device running Linux, such as a Raspberry Pi or BeagleBone Black, you can use the following command line program to download the respository to your device:
+If you're logged onto a device running Linux, such as a Raspberry Pi or BeagleBone Black, you can use the following command line program to download the software programs to your device:
 
-`wget https://github.com/IoTDevLabs/iot-educ/archive/master.zip`
+```
+wget https://github.com/IoTDevLabs/iot-educ/archive/master.zip
+```
 
-If you're using Git on the Raspberry Pi or on your laptop, you can clone this repository using this command:
+If you're using Git on the Raspberry Pi or on your laptop, you can *clone* this repository using the following command. Cloning is optional and is only needed if you want to create your own stand-alone git repository to more throughly track your own changes to the source code.
 
-`git clone https://github.com/IoTDevLabs/iot-educ.git`
+```
+git clone https://github.com/IoTDevLabs/iot-educ.git
+```
 
 ### Quickstart on a Raspberry Pi
 
@@ -57,7 +61,7 @@ If you're using Git on the Raspberry Pi or on your laptop, you can clone this re
   2. *Each time you run this program you should see the Pi's CPU temperature printed out in both Celsius and Fahrenheit*
 1. Run the template program to continously read and print the CPU temperature and write it to Pi Land room 404:
   1. `python cpu-temp-piland.py`
-  2. *When this program runs you should see a URL printed out every 2 seconds and the temperature data value should be appearing in [Pi Land room 404](http://piland.socialdevices.io/404/display) in the first data slot at the top right. If you heat or cool the Pi board you should see the temperature change.*
+  2. *When this program runs you should see a URL printed out every 2 seconds and the temperature data value should be appearing in [Pi Land room 404](http://piland.socialdevices.io/404/display) in data slot 1 towards the top left. If you heat or cool the Pi board you should see the temperature change.*
 
 ### Next Steps
 
