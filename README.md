@@ -4,20 +4,24 @@
 
 Software and guides for learning about and building sensors for smart city / smart community applications.
 
-Materials are organized into two areas:
+Materials are organized in two areas:
 
-* [Software Programs](https://github.com/IoTDevLabs/iot-educ) - source code for runnable programs written in Python, Node.js and bash scripts
 * [Wiki](https://github.com/IoTDevLabs/iot-educ/wiki) - FAQ, getting started guides, component lists, reference books
+* [Software Programs](https://github.com/IoTDevLabs/iot-educ#software-programs) - source code for runnable programs written in Python, Node.js and bash scripts
+
+## Wiki
+
+The [Wiki](https://github.com/IoTDevLabs/iot-educ/wiki) section holds documentation files such as step-by-step guides for assembling and running your sensors and programs. There are also documents on suggested electronic components, types of sensors, reference books, and other information.
 
 See the [Frequently Asked Questions (FAQ)](https://github.com/IoTDevLabs/iot-educ/wiki/Frequently-Asked-Questions-(FAQ)) for answers to common questions and [What's New](https://github.com/IoTDevLabs/iot-educ/wiki/What's-New) to see what's new.
 
 ## Software Programs
 
-Source code is organized in three folders:
+The source code section holds application software programs that operate your sensors and actuators. It's organized in three sub-folders:
 
-* **[rpi](https://github.com/IoTDevLabs/iot-educ/tree/master/rpi)** - contains programs and scripts for Raspberry Pi
-* **[bbb](https://github.com/IoTDevLabs/iot-educ/tree/master/bbb)** - contains programs and scripts for BeagleBone Black 
-* **[gal](https://github.com/IoTDevLabs/iot-educ/tree/master/gal)** - contains programs and scripts for Galileo 
+* **[rpi](https://github.com/IoTDevLabs/iot-educ/tree/master/rpi)** - contains programs for Raspberry Pi
+* **[bbb](https://github.com/IoTDevLabs/iot-educ/tree/master/bbb)** - contains programs for BeagleBone Black
+* **[gal](https://github.com/IoTDevLabs/iot-educ/tree/master/gal)** - contains programs for Galileo
 
 ### Downloading a copy of the source code
 
@@ -31,7 +35,7 @@ If you're logged onto a device running Linux, such as a Raspberry Pi or BeagleBo
 wget https://github.com/IoTDevLabs/iot-educ/archive/master.zip
 ```
 
-If you're using Git on the Raspberry Pi or on your laptop, you can *clone* this repository using the following command. Cloning is optional and is only needed if you want to create your own stand-alone git repository to more throughly track your own changes to the source code.
+If you're using Git on the Raspberry Pi or on your laptop, you can *clone* this repository using the following command. Cloning is optional and is only needed if you want to create your own stand-alone git repository to more thoroughly track your own changes to the source code.
 
 ```
 git clone https://github.com/IoTDevLabs/iot-educ.git
@@ -41,7 +45,7 @@ git clone https://github.com/IoTDevLabs/iot-educ.git
 
 *These instructions assume you're running the latest version of the Raspbian operating system on your Raspberry Pi and that you have your Pi connected to the Internet.*
 
-*For a more detailed getting started guide, see the [Step by Step: Raspberry Pi](https://github.com/IoTDevLabs/iot-educ/wiki/Step-by-Step:--Raspberry-Pi) page.*
+*For a more detailed getting started guide, see the [Step by Step: Raspberry Pi](https://github.com/IoTDevLabs/iot-educ/wiki/Step-by-Step:--Raspberry-Pi) document in the Wiki section.*
 
 1. Log into the Pi.
 1. Verify you have Internet connectivity:
